@@ -21,7 +21,7 @@ body {
 
 /* --------------- Navbar ---------------- */
 .navbar {
-  position: sticky;
+  position: fixed;
   top: 0;
   height: 60px;
   width: 100%;
@@ -38,6 +38,11 @@ body {
   align-items: center;
   justify-content: space-between;
   background-color: rgb(201, 226, 87);
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .nav-icon {
   font-size: 1.5rem;
